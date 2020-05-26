@@ -1,0 +1,17 @@
+{
+  "name": "unfollowbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Capuani",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "instagram-private-api": "github:dilame/instagram-private-api",
+    "ms": "^2.1.2"
+  }
+}
