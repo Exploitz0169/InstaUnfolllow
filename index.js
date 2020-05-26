@@ -1,14 +1,15 @@
 /* Imports */
 const Client = require("./src/client.js");
+const creds = require("./credentials.json");
 
 /* Initialize Client */
 const client = new Client({
 
-    /* Instagram Username. */
-    username: "username",
+    /* Instagram Username. Change in credentials.json file. */
+    username: creds.username,
 
-    /* Instagram Password. */
-    password: "password",
+    /* Instagram Password. Change in credentials.json file. */
+    password: creds.password,
 
     /* At what rate shall the bot unfollow someone? Ex: '30s' will unfollow someone every 30 seconds. Change this line if you wish.*/
     timer: '30s',
